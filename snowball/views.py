@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def snowball(requests):
+    return render(requests, 'snowball.html')
